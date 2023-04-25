@@ -22,9 +22,69 @@ section{
     align-content: center;
     min-height: 100vh;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 
+.CS1{
+    position: relative;
+    margin-right: 800px;
+    z-index: -1;
+}
+.CS2{
+    position: absolute;
+    margin-right: 700px;
+    z-index: 1;
+}
+.CS3{
+    position: absolute;
+    margin-right: 600px;
+    z-index: 2;
+    margin-bottom: 100px;
+}
+.CS3:hover{
+    color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
+}
+
+.CS2:hover{
+    color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
+}
+
+.CS1:hover{
+    color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
+}
+
+.adjust{
+    margin-left: 500px;
+    z-index: -1;
+}
 
 div {
     height: 250px;
@@ -91,3 +151,4 @@ div:after{
     opacity: 1;
     transform: translateY(0);
 }
+
