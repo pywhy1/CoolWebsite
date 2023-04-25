@@ -21,6 +21,7 @@ section{
     place-items: center;
     align-content: center;
     min-height: 100vh;
+    margin-bottom: 50px;
 }
 
 
@@ -79,11 +80,14 @@ div:after{
 
 }
 
-.hidden {
-    opacity: 1;
+/* Example CSS for scroll effect */
+.section {
+    opacity: 0;
+    transform: translateY(30%);
+    transition: opacity 1s ease, transform 1s ease;
 }
 
-.show {
+.section.in-view {
     opacity: 1;
     transform: translateY(0);
 }
